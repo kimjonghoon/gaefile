@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+} 
+#wrap {
+    margin: 0 auto;
+    padding: 0;
+    width: 856px;
+}
+.comments span.writer {
+    display: block;
+    float: left;
+    margin: 3px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+}
+.comments span.date {
+    display: block;
+    float: left;
+    margin: 3px;
+    padding: 0;
+    font-size: 12px;
+    color: #555;
+}
+.comments span.modify-del {
+    display: block;
+    float: right;
+    margin: 3px;
+    padding: 0;
+    font-size: 12px;
+    color: #555;
+}
+.comments a {
+    color: #555;
+    text-decoration: none;
+    font-size: 11px;
+}
+.comments a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+.comments p {
+    clear: both;
+    margin: 0;
+    padding: 0 3px 3px 3px;
+    color: #555;
+    font-size: 12px;
+}
+.comment-form {
+    clear: both; 
+    padding: 0.22em 2.22em 0.22em 3.22em; 
+}
+.comment-textarea {
+    border: 1px solid silver;
+    padding: 3px;
+    width: 99%;
+    color:#555;
+    background-color: #eee;
+    font-size: 11px; 
+}
+#addComment {
+    margin-bottom: 5px;
+    padding: 0.22em;
+    border: 1px solid #eee;
+    background-color: #fafbf7;
+}
+#addComment textarea {
+    width: 99%;
+    padding: 3px;
+    border: 0;
+    color: #555;    
+}
